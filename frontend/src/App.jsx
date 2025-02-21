@@ -29,7 +29,7 @@ function App() {
     };
 
     try {
-      const res = await fetch("http://localhost:3000/bfhl", {
+      const res = await fetch("https://bfhl-assignment.onrender.com/bfhl", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
